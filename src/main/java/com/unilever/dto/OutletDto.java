@@ -17,14 +17,6 @@ public class OutletDto {
     public OutletDto() {
     }
 
-    public OutletDto(long id, String lastName, String location, String outletName, String outletType) {
-        this.id = id;
-        this.lastName = lastName;
-        this.location = location;
-        this.outletName = outletName;
-        this.outletType = outletType;
-    }
-
     public long getId() {
         return id;
     }
