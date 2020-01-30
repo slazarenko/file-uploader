@@ -5,7 +5,7 @@ Spring Boot application to upload file and save its content in DB
 ### Code Repository
 First off, clone the repo
 
-    git@
+    https://github.com/slazarenko/file-uploader.git
 
 ## How to Build artifact without Docker:
 
