@@ -18,7 +18,6 @@ To build Artifact and run Application from command line using maven:
 ## How to Build artifact Using Docker:
 Perform from command line:
 
-    docker-compose build
     docker-compose up
     
 Once it is ready, one can access API via same URL:

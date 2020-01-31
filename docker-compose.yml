@@ -7,7 +7,8 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:8080"
+      - 8080:8080
+    restart: on-failure
     depends_on:
       - database-service
     environment:
@@ -20,7 +21,9 @@ services:
 
   database-service:
     container_name: db-container
-    image: mysql/mysql-server:8.0
+    image: mysql/mysql-server:8.0.19
+    ports:
+      - 3306:306
     environment:
       MYSQL_DATABASE: database
       MYSQL_USER: user
