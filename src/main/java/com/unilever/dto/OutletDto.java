@@ -2,7 +2,9 @@ package com.unilever.dto;
 
 import com.opencsv.bean.CsvBindByName;
 
-public class OutletDto {
+import java.io.Serializable;
+
+public class OutletDto implements Serializable {
     @CsvBindByName
     private long id;
     @CsvBindByName
